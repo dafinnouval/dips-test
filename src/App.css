@@ -1,38 +1,278 @@
-.App {
-  text-align: center;
+.banner1 {
+  background-size: cover;
+  height: 100vh;
+}
+.banner2 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(./assets/images/banner2.png);
+  background-size: cover;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.swiper-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic,
+.swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+  left: 92% !important;
+  bottom: 31% !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.swiper-pagination-bullet-active {
+  background: white !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text-banner {
+  font-family: "Gujarati MT", sans-serif;
+  text-transform: uppercase;
+  font-size: 90px;
+  font-weight: 400;
+  line-height: 95%;
 }
 
-.App-link {
-  color: #61dafb;
+.text-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 100%;
+  text-transform: uppercase;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-service {
+  font-family: "Gujarati MT", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 130%;
+  color: #ffffff;
+}
+
+.accordion .accordion-item {
+  background-color: #000000 !important;
+  border: none !important;
+}
+
+.text-title-service {
+  font-family: "Gujarati MT", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #b6b6b6;
+}
+.text-desc-service {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+.btn-view {
+  font-family: "Neue Montreal", sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  text-transform: uppercase;
+  color: #ffffff !important;
+}
+
+.text-desc {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #060606;
+}
+
+.text-sub-b {
+  font-family: "Gujarati MT", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 130%;
+  text-transform: uppercase;
+}
+
+.text-sub-u {
+  font-family: "Gujarati MT", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 130%;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+
+.btn-yellow {
+  border-radius: 0 !important;
+  background-color: #fffe55 !important;
+  font-family: "Lato", sans-serif !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 15px !important;
+  line-height: 18px !important;
+  text-transform: uppercase;
+  color: #000000 !important;
+  padding: 12px 25px !important;
+}
+
+.arrow-right {
+  font-size: 40px;
+}
+
+.text-gray {
+  margin-bottom: 20px;
+  font-family: "Gujarati MT", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #b6b6b6;
+  opacity: 0.95;
+}
+
+.text-project {
+  margin-bottom: 5px;
+  font-family: "Gujarati MT", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 100%;
+  color: #000000;
+  opacity: 0.95;
+}
+
+.bg-about {
+  background-image: url("./assets/images/bg-about.png");
+  background-size: cover;
+  height: auto;
+}
+
+.about-vidio {
+  z-index: 10;
+  top: -30%;
+}
+
+.mx-155 {
+  margin: 0 155px;
+}
+
+.card {
+  border: none !important;
+}
+.card-body {
+  padding: 24px 30px !important;
+}
+.text-title-card {
+  font-family: "Neue Montreal", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px !important;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #060606;
+}
+.text-position-card {
+  font-family: "Neue Montreal", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 140%;
+  color: #000000;
+}
+
+.text-value {
+  font-family: "Gujarati MT", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 130%;
+  color: #c4c4c4;
+}
+
+.border-img-value {
+  border: 1px solid #e5e5e5;
+  width: 100%;
+  padding: 52px 100px;
+  margin-bottom: 34px;
+}
+
+.text-desc-contact {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  color: #000000;
+}
+.text-contact {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #000000;
+}
+.form-control-custom {
+  background-color: #000000 !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 0 !important;
+  border-bottom: 1px solid #ffffff !important;
+}
+
+.bg-yellow {
+  background-color: #fffe55;
+}
+
+.footer .footer-content {
+  column-gap: 150px;
+  row-gap: 48px;
+}
+
+.footer .footer-content .footer-links .title-links {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: #000000;
+  margin-bottom: 18px;
+}
+
+.footer .footer-content .footer-links a {
+  font-family: "Gujarati MT", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+  text-decoration: none;
+  color: #1b1b1b;
+  transition: all 0.3s;
+  margin-bottom: 8px;
+}
+
+.footer .footer-content .text-phone {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #000000;
+  transform: rotate(-90deg);
+  transform-origin: right;
+  white-space: nowrap;
+  position: relative;
+  right: 18%;
+}
+
+.footer .footer-content .footer-links .form-control {
+  background-color: #fffe55;
+  border-radius: 0;
+  border: 0;
+  border-bottom: 1px solid #000000;
 }
